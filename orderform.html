@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Pet Friendly Service - Order Form</title>
+  </head>
+  <body>
+    <form action="processorder.php" method="post">
+    <table style="border: 0px;">
+    <tr style="background: #cccccc;">
+      <td style="width: 150px; text-align: center;">Items to Bring</td>
+      <td style="width: 15px; text-align: center;">Quantity</td>
+    </tr>
+    </tr>
+      <td>Number of Pets</td>
+      <td><input type="text" name="petqty" size="3" maxlength="3" /></td>
+    </tr>
+    <tr>
+      <td>Toys</td>
+      <td><input type="text" name="toyqty" size="3" maxlength="3" /></td>
+    </tr>
+    <tr>
+     <td>Food</td>
+     <td><input type="text" name="foodqty" size="3" maxlength="3" /></td>
+    </tr>
+     <tr>
+      <td>Address</td>
+      <td><input type="text" name="address" size="50" maxlength="100"</td>
+    </tr>    
+    <tr>
+     <td colspan="2" style="text-align: center;"><input type="submit" value="Submit Order" /></td>
+    </tr>
+    </table>
+    </form>
+  </body>
+</html>
